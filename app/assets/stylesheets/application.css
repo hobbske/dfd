@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+/*@import "bootstrap-sprockets";
+
+@import "bootswatch/readable/variables";
+
+@import "bootstrap";
+
+@import "bootswatch/readable/bootswatch";
+
+@import "base";*/
+
+.navbar {
+	background-color: #333232;
+	margin: 0px;
+}
+
+.navbar-brand {
+	padding: 12.5px 5px;
+}
+
+img {
+	padding: 5px;
+}
+
+.icon-bar {
+	color:rgba(17, 117, 232, 0.9);
+	background-color: rgba(17, 117, 232, 0.9);
+}
+
+/*.navbar-default .navbar-nav>li>a {
+    color: #337ab7;
+}*/
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: rgba(17, 117, 232, 0.9);
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #F77F00;
+}
+
